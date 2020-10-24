@@ -1,0 +1,412 @@
+
+
+body{
+    padding:0;
+    margin:0;
+    font-family: "Montserrat-Bold";
+    background-color: rgb(254, 254, 254) !important;
+    
+  
+    
+}
+#texto{
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size:45px;
+    color:gold;
+    padding-left:25%;
+
+}
+span{
+    color:seagreen;
+    font-weight:bold;
+    font-size:20px;
+}
+
+#lop{
+    color:lightseagreen;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:35px;
+    color:lightcoral !important;
+}
+
+.nav-link{
+    font-size:20px;
+    margin:15px;
+    color:#000 !important; 
+    font-family:"Poppins",sans-serif;
+     
+}
+
+.nav-link:hover{
+    color:greenyellow!important;
+}
+
+.active .nav-link{
+    color: greenyellow !important;
+}
+
+.menu-right-btn{
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all  300ms ease-in;
+}
+
+.menu-right-btn:hover{
+    color:white;
+    background-color:greenyellow;
+}
+.site-content{
+    background-image:url("./Stock/beauty.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc{
+    
+    color:#FFF;
+    font-family:"Montserrat",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site-title{
+    margin-top: 20%;
+    margin-bottom: 6%;
+    font-size: 50px;
+    padding-left:24px;
+}
+
+.site-desc{
+    font-size:15px;
+    padding-left: 15%;
+    font-family:"Ubuntu",sans-serif;
+}
+ .site-btn1{
+    margin-left:20%;
+    background-color:#000;
+    color:#fff;
+}
+ .site-btn2{
+    color:#fff;
+}
+.site-btn1, .site-btn2{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+/* SECTION -1 */
+
+.section-1 .heading-1{
+    margin-top:8%;
+}
+
+.section-1 .heading-2{
+    margin-bottom:5%;
+    font-size:39px;
+
+}
+
+.section-1 .para-1{
+    width:60%;
+    margin-left:20%;
+    margin-bottom:5%;
+}
+
+.section-1 .card-text, .para-1{
+    color:rgba(0, 0, 0, 0.59);
+}
+
+.section-1{
+    margin-bottom:8%;
+}
+
+.card{
+    width:20rem;
+}
+
+
+/* Section -2*/
+
+.section-2 .container-fluid{
+    background-image:url("./Stock/pexels-photo-1036808.jpeg");
+    background-size:cover;
+    background-color:darkred;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1{
+    margin-top: 10%;
+    margin-bottom:2%;
+    font-family:"Ubuntu",sans-serif;
+    width:30%;
+    color:#000;
+}
+
+.section-2 .para{
+    width:80%;
+    font-family:"Ubuntu",sans-serif;
+    color:#000;
+    margin-bottom: 7%;
+}
+
+.section-2 .btn{
+    margin-bottom:15%;
+    width:30%;
+    padding: 2% 5%;
+}
+
+
+/* SECTION 3*/
+
+.section-3{
+    margin-top: 6%;
+}
+
+#icon{
+    color:lightgreen;
+}
+
+.section-3 p{
+   color:rgba(0, 0, 0, 0.59);
+}
+
+/*Section 4*/
+
+.section-4{
+    margin-top: 6%;
+}
+
+.section-4 .row .col-md-7, .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-4 a {
+    font-size:40px;
+    color:  red;
+    text-decoration: none;
+}
+
+.section-4 .para-1{
+    color:#fff;
+    font-family:"Montserrat-Bold",sans-serif;
+    margin-top: 7%;
+    font-size: 23px;
+}
+
+
+/*footer */
+
+.footer {
+    color:greenyellow;
+    font-family: "Ubuntu",sans-serif;
+    font-size:24px;
+}
+.socail i{
+    color:#ef5651;
+    font-size: 20px;
+}
+
+#icox{
+    color:#ef5651;
+    font-size: 40px;
+}
+
+#icox:hover{
+    cursor: pointer;
+    color:lightsalmon;
+}
+
+
+@media screen and (max-width:768px) {
+    .section-1 .card{
+        width:14rem;
+    }
+
+    .section-4 .col-md-7 img{
+        width:250px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .site-content .site-title{
+        font-size:30px;
+        padding-left: 15%;
+    }
+
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .site-content .site-btn1{
+        margin-left:15%;
+    }
+
+
+    .site-content .heading-1, .section-1 .heading-2{
+        font-size: 25px;
+    }
+
+    .section-1  .col-md-4{
+        padding:5%;
+        margin-left: 8%;
+    }
+
+    .section-1 .card{
+        width: 15rem;
+    }
+
+    .section-4 .col-md-5 {
+        padding: 0% 15%;
+    }
+
+    footer input[type="button"]{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .site-content .site-title{
+        font-size:20px;
+        padding-left: 5%;
+    }
+
+    .site-content .site-btn2{
+        display: none;
+    }
+
+    .site-content .site-btn1{
+        margin-left:5%;
+    }
+
+
+    .site-content .heading-1, .section-1 .heading-2{
+        font-size: 25px;
+    }
+
+    .section-1  .col-md-4{
+        padding:5%;
+        margin-left: 8%;
+    }
+
+    .section-1  .card-img-top .col-md-4 .card{
+        width: 15rem;
+    }
+
+    .section-4 .col-md-5 {
+        padding: 0% 15%;
+    }
+
+    footer input[type="button"]{
+        margin-top: 5%;
+    }
+}
+
+
+ @media (max-width: 768px){
+    .section-1 .card{
+        width: 10rem;
+        font-size:13px
+    }
+
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
+
+/*@media  (max-width: 360px,414px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+        font-size:15px;
+       
+    }
+
+   
+.site-content .site-btn2{
+    display:none;
+}
+
+.section-1 .col-md-4 .card-title{
+    padding:5%;
+    margin-left: 8%;
+    justify-content: center;
+    font-size:8rem;
+  
+}
+
+.section-1 .card{
+    width:25rem;
+    margin-left:8%;
+    margin-top:24px;
+   
+}
+
+.section-3 .col-md-4{
+    width: 15rem;
+    
+}
+.container-fluid, .flex-row, .site-btn-1, .site-btn2{
+    width:25rem;
+    padding:5px;
+ 
+}
+
+.site-content .site-btn1{
+    padding-left:15%;
+}
+
+.section-4 .col-md-5{
+    padding:0% 15%;
+}
+
+.footer input[type="button"]{
+    margin-top: 5%;
+}
+
+}
+@media  (max-width: 320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left: 15%;
+        font-size:15px;
+    }
+   
+.site-content .site-btn2{
+    display:none;
+}
+
+.section-1 .col-md-4{
+    padding:15%;
+    margin-left: 10%;
+}
+
+.section-1 .card{
+    width:25rem;
+    display:flex;
+}
+.container-fluid, .flex-row,.site-btn-1, .site-btn2{
+    width:25px;
+    padding:10px;
+}
+
+.site-content .site-btn1{
+    padding-left:25%;
+}
+
+.section-4 .col-md-5{
+    padding:5% 25%;
+}
+
+.footer input[type="button"]{
+    margin-top: 7%;
+}   
+}*/
+
+@media (max-width:1024px) {
+    .col-md-5{
+        padding-left:65px;
+        font-size:13px;
+    }
+}
